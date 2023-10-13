@@ -1,0 +1,45 @@
+body{
+    background-color: antiquewhite;
+}
+header{
+    background-color: blueviolet;
+    height: 70px;
+}
+nav{
+    background-color: chartreuse;
+    height: 70px;
+}
+main{
+    background-color: crimson;
+    padding: 20px;
+    width: 650px;
+    height: 70px;
+    float: left;
+}
+aside{
+    background-color: chocolate;
+    padding: 20px;
+    width: 600px;
+    height: 70px;
+    float: right;
+    margin-left: auto;
+    
+}
+footer{
+    background-color: aqua;
+    clear: both;
+    height: 60px;
+}
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a :hover{
+    color: yellow;
+}
+.h1 style{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1.some{
+    background-color: red;
+}
